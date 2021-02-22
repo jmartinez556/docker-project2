@@ -5,7 +5,7 @@ var app = express()
 var port = 9000
 //Define request response in root URL (/)
 app.get('/', function (req, res) {
-    res.send('this website should relay information from project 2')
+    res.send('cicd is coolio my dude')
 })
 //Launch listening server on port 3000
 app.listen(port, function () {
