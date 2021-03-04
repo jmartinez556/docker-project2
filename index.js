@@ -7,7 +7,7 @@ var port = 9000
 app.get('/', function (req, res) {
     res.send('cicd is coolio my dude')
 })
-//Launch listening server on port 3000
+//Launch listening server on port 9000
 app.listen(port, function () {
-    console.log('app listening on port ${port}!')
+    console.log('this is project2 listening on port ${port}!')
 })
