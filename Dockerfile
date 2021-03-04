@@ -5,13 +5,6 @@ WORKDIR /app
 COPY . .
 RUN npm install
 
-EXPOSE 9000
+EXPOSE 52159
 
-ENTRYPOINT ["node", "index.js"]
-
-FROM node:latest
-WORKDIR /app
-COPY . .
-RUN npm install
-EXPOSE 9000
 ENTRYPOINT ["node", "index.js"]
